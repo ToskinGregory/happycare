@@ -10,7 +10,7 @@ const Navbar = () => {
     { title: "Home", path: "#" },
     { title: "Services", path: "#" },
     { title: "Contact Us", path: "#" },
-    { title: "All Transactions", path: "#transactions" },
+    { title: "All Transactions", url: "https://sepolia.basescan.org/address/0xcB45ea683e4c6ba4220737de2a60343C71987E52" },
   ];
 
   useEffect(() => {
